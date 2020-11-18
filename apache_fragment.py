@@ -30,8 +30,8 @@ def sanitize(input_file):   # Collect data of [url,domain,email]
         else:                               # Else statement: domain doesn't exist in sanitized_domains
             sanitized_domains[domain] = 1   # Add new domain
         
-        # Makes a list of all the email addresses it finds | eg: fizz.cmp.uea.ac.uk: 1
-        email = re.findall(r'^\w+.cmp.uea.ac.uk',line)  # Get email by regex
+        # Makes a list of all the email addresses it finds | eg: vailey.xxx.xxx.ac.uk: 1
+        email = re.findall(r'^\w+.xxx.xxx.ac.uk',line)  # Get email by regex
         email = str(email)                  # Make sure email is string
         if email in sanitized_emails:       # If statement: url exist in sanitized_emails
             sanitized_emails[email] +=1     # Increase the frequency by 1
