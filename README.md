@@ -4,7 +4,7 @@ Language: Python 3
 
 Others  : import re for re.findall, re.sub to collect url / domain / email and calculate the frequecies of each elements.
 
-Hints   : line 34 customize domain
+Notes   : Domain should be customize to fit your domain
 
 Sample apache: 
 
