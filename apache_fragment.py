@@ -1,5 +1,17 @@
-#!/usr/bin/python3 -tt
-# DJS 2016
+'''
+
+File        : apache_fragment.py
+
+Date        : Wednesday 18th November 2020
+
+Author      : VaileyXO
+
+Description : Collect url / domain / email and calculate the frequecies of each elements from .log file.
+
+Notes       : Domain should be customize to fit your domain
+
+'''
+
 import re
 import sys
 
