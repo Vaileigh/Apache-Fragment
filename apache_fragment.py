@@ -12,6 +12,8 @@ Notes       : Domain should be customize to fit your domain
 
 '''
 
+# Python 3
+
 import re
 import sys
 
